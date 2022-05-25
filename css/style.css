@@ -373,19 +373,16 @@ header .navbar ul li a:hover{
     filter: brightness(2);
 
 }
-.top{
-    position: fixed;
-    bottom: 9rem; right: 6rem;
-    z-index: 100;
-    display: none;
-    width: 3vw;
-    height: 3vh;
-    background-color: transparent;
-        
-    }
 
 
 
+/* Set the size of the div element that contains the map */
+#map {
+    height: 300px;
+    /* The height is 400 pixels */
+    width: 80%;
+    /* The width is the width of the web page */
+  }
 
 
 
