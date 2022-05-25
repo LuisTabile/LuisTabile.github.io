@@ -358,17 +358,31 @@ header .navbar ul li a:hover{
     font-weight: normal;
 }
 
+.contact .row .content .info a{
+    text-decoration: none;
+    color: #eee;
+
+}
 .contact .row .content .info h3 i{
     padding-right: 1rem;
     color:var(--yellow);
 }
 
+.icon:hover{
+    transform: scale(1.1);
+    filter: brightness(2);
+
+}
 .top{
     position: fixed;
-    bottom:7.5rem; right: 2rem;
+    bottom: 9rem; right: 6rem;
     z-index: 100;
     display: none;
-}
+    width: 3vw;
+    height: 3vh;
+    background-color: transparent;
+        
+    }
 
 
 
@@ -399,6 +413,10 @@ header .navbar ul li a:hover{
     .home{
         padding:1rem 4rem;
     }
+    .top{
+        width: 5vw;
+        height: 5vh;
+    }
 
 }
 
@@ -427,8 +445,12 @@ header .navbar ul li a:hover{
     html{
         font-size: 50%;
     }
- 
- }
+ .top{
+    width: 8vw;
+    height: 8vh;
+}
+
+}
 
 @media (max-width:400px){
 
@@ -454,6 +476,10 @@ header .navbar ul li a:hover{
 
     .contact .row form{
         margin:3rem 0;
+    }
+    .top{
+        width: 10vw;
+        height: 10vh;
     }
 
  }
